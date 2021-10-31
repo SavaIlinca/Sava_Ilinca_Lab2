@@ -18,6 +18,7 @@ namespace Sava_Ilinca_Lab2
             {
                 mFlavor = value;
             }
+        }
             public delegate void DoughnutCompleteDelegate();
         public event DoughnutCompleteDelegate DoughnutComplete;
         DispatcherTimer doughnutTimer;
@@ -104,4 +105,4 @@ namespace Sava_Ilinca_Lab2
             mFlavor = aFlavor;
         }
     }
-}
+
